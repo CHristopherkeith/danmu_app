@@ -13,7 +13,7 @@ $(document).ready(function(){
 	/*******************监听服务器数据******************/
 	ref.on('child_added', function (snap) {
 		var val = snap.val().content;
-		console.log(val);
+		//console.log(val);
 		danmu.send(val);
 	});
 
